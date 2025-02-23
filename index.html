@@ -86,10 +86,30 @@
               </div>
            </div>
     </nav>
-    <div class="px-5 lg:px-24">
-        <div class="min-h-screen" 
-        style="background-image: url('c1-assets/cat-big.png');">
-        <div class="max-w-7xl"></div>
+    <!-- mobile device -->
+    <div class="px-5 lg:hidden">
+         <div class="space-y-5">
+            <h1 class="ADLaM-display text-[#111111] text-3xl lg:text-5xl">
+                Pamper Your Pet, <br> Because They Deserve <br> the Bes
+            </h1>
+            <p class="text-[#111111] text-xl">
+                Discover a world of treats, toys, 
+                and essentials handpicked for <br> your furry friends. 
+                Shop now and make tails wag with joy!
+            </p>
+            <button class="btn bg-accent">
+                Find a pet
+            </button>
+           </div>
+          <div class="max-w-max max-h-max">
+            <img class="object-cover" src="c1-assets/cat-big.png" alt="">
+        </div>
+    </div>
+    <!-- large device -->
+    <div class="px-24 hidden lg:block">
+       <div class="min-h-screen"
+       style="background-image: url('c1-assets/cat-big.png');">
+       <div class="max-w-max max-h-max"></div>
         <div class="space-y-5">
             <h1 class="ADLaM-display text-[#111111] text-3xl lg:text-5xl">
                 Pamper Your Pet, <br> Because They Deserve <br> the Bes
@@ -102,8 +122,8 @@
             <button class="btn bg-accent">
                 Find a pet
             </button>
-        </div>
-         </div>
+           </div>
+       </div>
     </div>
    </header> 
    <main>
@@ -120,7 +140,7 @@
                         class="rounded-full bg-white p-3" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title">Dogs</h2>
+                      <h2 class="card-title ADLaM-display font-normal">Dogs</h2>
                       <p>3 items</p>
                      </div>
         </div>
@@ -133,7 +153,7 @@
                 class="rounded-full bg-white p-3" />
             </figure>
             <div class="card-body items-center text-center">
-              <h2 class="card-title">Fishes</h2>
+              <h2 class="card-title ADLaM-display font-normal">Fishes</h2>
               <p>3 items</p>
              </div>
           </div>
@@ -146,7 +166,7 @@
                 class="rounded-full bg-white p-3" />
             </figure>
             <div class="card-body items-center text-center">
-              <h2 class="card-title">Birds</h2>
+              <h2 class="card-title ADLaM-display font-normal">Birds</h2>
               <p>3 items</p>
              </div>
           </div>
@@ -159,7 +179,7 @@
                 class="rounded-full bg-white p-3" />
             </figure>
             <div class="card-body items-center text-center">
-              <h2 class="card-title">Cats</h2>
+              <h2 class="card-title ADLaM-display font-normal">Cats</h2>
               <p>3 items</p>
              </div>
           </div>
@@ -172,7 +192,7 @@
                 class="rounded-full bg-white p-4" />
             </figure>
             <div class="card-body items-center text-center">
-              <h2 class="card-title">Small Pet</h2>
+              <h2 class="card-title ADLaM-display font-normal">Small Pet</h2>
               <p>3 items</p>
              </div>
           </div>
@@ -185,7 +205,7 @@
                 class="rounded-full bg-white p-3" />
             </figure>
             <div class="card-body items-center text-center">
-              <h2 class="card-title">Rabbit</h2>
+              <h2 class="card-title ADLaM-display font-normal">Rabbit</h2>
               <p>3 items</p>
              </div>
           </div>
@@ -322,7 +342,7 @@
                          </div>
                      </div>
                     <!-- card-09 -->
-                    <div class="flex items-center gap-5 bg-[#FFFFFF] border border-[#1111111A] rounded-lg p-4 hidden lg:flex">
+                    <div class="hidden lg:flex items-center gap-5 bg-[#FFFFFF] border border-[#1111111A] rounded-lg p-4">
                         <div class="bg-[#FFF9F4] max-w-24">
                          <img  src="c1-assets/rabbit-cartoon.png" alt="">
                         </div>
@@ -339,15 +359,76 @@
             </div>
         </div>
     </section>
+    <!-- Breed Description -->
+    <section  class="mt-16 mb-16 px-5 lg:px-24">
+        <h1 class="ADLaM-display text-[#111111] text-3xl mb-8">
+             Breed Description</h1>
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- card-01 -->
+                <div class="card bg-[#F9DF8A]   shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="c1-assets/images.jpeg"
+                        alt="Dogs"
+                        class="rounded-full bg-white p-3" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h1 class="card-title ADLaM-display text-3xl mb-3">
+                        Siberian Husky</h1>
+                      <p> 
+                        The Siberian Husky is a breed of medium-sized working sled dog. 
+                        The breed belongs to the Spitz genetic family. It is recognizable by its thickly furred double coat, 
+                        erect triangular ears, and distinctive markings, and is smaller than the similar-looking Alaskan Malamute.
+                      </p>
+                     </div>
+                  </div>
+                 <!-- card-02 -->
+                 <div class="card bg-[#F9DF8A]  shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="c1-assets/Alaskan Malamute.jpg"
+                        alt="Dogs"
+                        class="rounded-full bg-white p-3" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title ADLaM-display text-3xl mb-3">
+                        Alaskan Malamute</h2>
+                      <p>
+                        The Alaskan Malamute is a large breed of dog that was originally bred for its strength and endurance, 
+                        to haul heavy freight as a sled dog. It is similar to other arctic breeds such as the husky, the spitz, 
+                        the Greenland Dog, Canadian Eskimo Dog, the Siberian Husky, and the Samoyed.
+                      </p>
+                     </div>
+                  </div>
+                 <!-- card-03 -->
+                 <div class="card bg-[#F9DF8A]  shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="c1-assets/American bully.jpg"
+                        alt="Dogs"
+                        class="rounded-full bg-white p-3" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title ADLaM-display text-3xl mb-3">
+                        American Bully</h2>
+                      <p>
+                        The American Bully is a modern breed of dog that was developed as a companion dog, 
+                        and originally standardized and recognized as a breed in 2004 by the American Bully Kennel Club (ABKC).
+                        Their published breed standard describes the dog as giving the "impression of great strength for its size".
+                      </p>
+                     </div>
+                  </div>
+             </div>
+    </section>
     <!--  Everyday low Price -->
     <section  class="mt-16 mb-16 px-5 lg:px-24">
         <h1 class="ADLaM-display text-[#111111] text-3xl mb-8">
             Everyday low Price</h1>
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-7">
                 <!-- card-01 -->
-                <div class="bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-lg shadow-xl col-span-2">
-                     <div class="grid grid-cols-2">
-                        <div class="p-20 my-auto space-y-3">
+                <div class="bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-lg shadow-xl lg:col-span-2">
+                     <div class="grid md:grid-cols-2">
+                        <div class="p-10 lg:p-20 lg:my-auto space-y-3">
                             <p class="hidden lg:flex">Under Price</p>
                           <h2 class=" ADLaM-display text-[#111111] text-2xl  lg:text-3xl"> 
                              Pet Grooming Mitt</h2>
@@ -358,12 +439,12 @@
                         <figure>
                             <img
                               src="c1-assets/cute-dog-mid.png"
-                              alt="Movie" />
+                              alt="Dog" />
                           </figure>
                       </div>
                      </div>
                   <!-- card-02 -->
-                  <div class=" bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] space-y-4 p-4 rounded-lg bg-no-repeat bg-right-bottom bg-contain">
+                  <div class=" bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] space-y-4 p-10">
                       <h1 class="ADLaM-display text-[#111111] text-2xl mb-8">
                           T-Shirt for Dogs</h1>
                           <h1 class="ADLaM-display text-[#FFDC26] text-3xl lg:text-5xl">$7.99</h1>
@@ -371,14 +452,76 @@
                       <figure>
                         <img class="bg-transparent"
                           src="c1-assets/cute-pet-mid.png"
-                          alt="Movie" />
+                          alt="Dog" />
                       </figure>
                     </div>
             </div>
     </section>
    </main>
-   <footer>
+   <footer class=" bg-[#F9DF8A]">
+    <div>
+        <!-- Upper portion -->
+         <div>
 
+         </div>
+        <!-- lower portion -->
+        <div class="lg:flex text-base-content p-10 lg:justify-around space-y-16">
+                 <div class="mt-40">
+                  <div class="flex gap-2 items-center mb-2">
+                    <img class="w-12" src="c1-assets/logo-footer.png" alt="">
+                    <a class=" text-[#111111] text-2xl items-center ml-2">
+                      Browse<span class="text-[#FFDC26]">4</span>Pets</a>
+                  </div>
+                      <p>
+                        Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends
+                      </p>
+                </div>
+            <div  class=" flex flex-col gap-2 mt-40">
+               <a class="link link-hover">Find a Pet</a>
+              <a class="link link-hover">Breeds</a>
+              <a class="link link-hover">Contact Us</a>
+            </div>
+            <div  class="mt-40">
+              <h6>Follow Us</h6>
+              <div class="flex gap-4 mt-3">
+                <a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                      d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+                  </svg>
+                </a>
+                <a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                      d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+                  </svg>
+                </a>
+                <a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                      d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+                  </svg>
+                </a>
+               </div>
+            </div>
+          </div>
+        
+    </div>
    </footer>
 </body>
 </html>
